@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #151515;
+}
+
+/* Diseño header */
+header{
+    background-color: #151515;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h2{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    background-color: #151515;
+    color: white;
+}
+header h4{
+    text-align: left;
+    background-color: #151515;
+    color: white;
+    padding: 5px;
+    /* border: solid transparent;
+    border-radius: 10px; */
+}
+header nav{
+    /* Alineacion texto */
+    text-align: center;
+    /* Nivel de negrita */
+    padding: 20px;
+    /* Ajustar texto segun el espacio disponible */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: solid transparent;
+    border-radius: 10px;
+    background-color: #FFB533
+}
+
+header nav a{
+    color: black;
+    text-decoration-line: none;
+    font-size: 17px;
+    font-stretch: narrower;
+    padding: 5px;
+    margin: 3px; 
+    width: 6rem;
+    border: solid black;
+    border-radius: 10px;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+}
+/* Diseño main  */
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid transparent;
+    border-radius: 10px;
+}
+
+main{
+     /* padding: 10px; */
+     background-color: darkslategrey;
+     display: flex;
+     justify-content: space-between;
+     /* Respetar el ancho de la web acomodando los objetos abajo */
+     flex-direction: row;
+     flex-wrap: wrap;
+}
+main section{
+    margin: 5px;
+}
+
+main section div{
+    width: 20rem;
+    border: 1px solid black;
+    /* Contorno redondo del cuadrado */
+    border-radius: 10px;
+    background-color: #151515;
+}
+
+main section div img{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #504D47;
+}
+
+main section div h3{
+    text-align: center;
+    font-size: large;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main section div p{
+    text-align: left;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: white;
+    line-height: 25px;
+}
+
+main section div h4{
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: #FFB533;
+    margin: 5px;
+}
+
+/* Diseño form */
+main article{
+    text-align: center;
+    display: inline;
+    justify-content: center;
+}
+
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* display: flex;
+    justify-content: space-between; */
+    
+}
+
+fieldset{
+    border: solid black;
+}
+
+legend{
+    text-align: center;
+}
+div{
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap; 
+
+}
+/* button{
+} */
+
+/* label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }*/
+/* input{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    
+} */
+
+/* Diseño footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFB533;
+    flex-wrap: wrap;
+}
+
+
+footer .copy{
+    margin: 50px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+footer .redes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 15px;
+}
+
+footer .redes a{
+    padding: 5px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

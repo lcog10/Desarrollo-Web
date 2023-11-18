@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: grey; */
+    text-decoration-line: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #d6ebc1;
+}
+/* Estilos header */
+header{
+    background-color: #b93af8;
+}
+
+header nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header nav a{
+    color: #ff8862;
+    font-size: x-large;
+}
+
+header nav a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+/* Estilos main */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Alto y ancho de las fotos */
+main .card{
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    border: 1px solid  #ff8862;
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease-in-out
+}
+
+main .card:hover{
+    box-shadow: 0 10px 20px rgba(192 211 173);
+}
+
+main .card img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    
+}
+
+.img-ownership{
+    width: 20%;
+    height: 300px;
+}
